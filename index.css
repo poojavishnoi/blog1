@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+  padding: 2%;
+  justify-content: space-between;
+  display: flex;
+  margin: 1% 2%;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 15px;
+  height: 2vh;
+  align-content: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav__header > h2{
+  font-size: 2rem;
+}
+
+
+svg{
+  cursor: pointer;
+}
+
+.container{
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 1% 15%;
+  border: 1px solid rgb(246, 197, 197);
+  padding: 3%;
+  border-radius: 15px;
+  min-height: 20vh;
+}
+
+.container__header{
+  font-size: 300%;
+}
+
+.container__image{
+  height: auto;
+  width: 70%;
+  padding-left:15%;
+  margin-top: 20px;
+
+}
+
+.container__content{
+  margin-top: 3%;
+}
+
+.container__content > h1{
+  padding: 2rem;
+  font-size: 2.25rem;
+}
+
+.container__content > p{
+  padding: 0rem 2rem;
+  color: rgb(68, 68, 68);
+  font-size: 1.25rem;
+  word-spacing: 3px;
+  letter-spacing: 0.5px;
+}
+
+.container__content > h2{
+  padding: 5rem 2rem;
+}
+
